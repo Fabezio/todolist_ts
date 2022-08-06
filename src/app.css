@@ -1,0 +1,13 @@
+.box {
+	margin: 1em auto;
+}
+
+@media (min-width: 768px) {
+	main {
+		max-width: none;
+	}
+
+	.box {
+		width: 750px;
+	}
+}
